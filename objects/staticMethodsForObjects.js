@@ -63,23 +63,22 @@ const GlobalLogic = {
 const Hitachi = Object.create(GlobalLogic);
 Hitachi.nameOfCompany = 'GlobalLogic a Hitachi Group Company';
 Hitachi.isOutsoursing = true;
-//Hitachi.slogan = "Inspire th Next";
 Hitachi.printName();
 GlobalLogic.printName();
 
 
 
 //using method entries()
-//console.log(Object.entries(Epam));
+console.log(Object.entries(Epam));
 //using method assign()
 const Eleks = Object.assign({}, GlobalLogic);
 Eleks.industry = 'Software engineering, Outsourcing';
 Eleks.numberOfExperts = 1500;
-//console.log(Eleks);
+console.log(Eleks);
 //using method freeze() and isFrosen()
 Object.freeze(Infopulse);
 Infopulse.numberOfEmployees = 2500;
-//console.log(Infopulse);
+console.log(Infopulse);
 if(Object.isFrozen(Infopulse)){
     console.log('Oooops');
 }else{
@@ -87,6 +86,6 @@ if(Object.isFrozen(Infopulse)){
 }
 //using method keys()
 Object.keys(Intellias);
-//console.log(Intellias);
+console.log(Intellias);
 
 
